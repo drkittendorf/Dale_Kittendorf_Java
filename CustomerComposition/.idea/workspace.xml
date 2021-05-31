@@ -5,19 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1aaa023-32ee-498c-b03f-54f809531bfe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Name.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/trackingyou/Billing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/trackingyou/Contact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/trackingyou/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/trackingyou/Shipping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RPGInheritance/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RPGInheritance/src/main/java/com/LizardsofTheBoast/Constable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RPGInheritance/src/main/java/com/LizardsofTheBoast/Farmer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RPGInheritance/src/main/java/com/LizardsofTheBoast/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RPGInheritance/src/main/java/com/LizardsofTheBoast/PersonClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RPGInheritance/src/main/java/com/LizardsofTheBoast/Warrior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/trackingyou/Name.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Name.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/trackingyou/Billing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trackingyou/Billing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/trackingyou/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trackingyou/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/trackingyou/Shipping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trackingyou/Shipping.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
