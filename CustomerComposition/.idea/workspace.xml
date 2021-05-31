@@ -4,13 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1aaa023-32ee-498c-b03f-54f809531bfe" name="Default Changelist" comment="" />
+    <list default="true" id="e1aaa023-32ee-498c-b03f-54f809531bfe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Name.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/trackingyou/Billing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/trackingyou/Contact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/trackingyou/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/trackingyou/Shipping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RPGInheritance/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RPGInheritance/src/main/java/com/LizardsofTheBoast/Constable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RPGInheritance/src/main/java/com/LizardsofTheBoast/Farmer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RPGInheritance/src/main/java/com/LizardsofTheBoast/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RPGInheritance/src/main/java/com/LizardsofTheBoast/PersonClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RPGInheritance/src/main/java/com/LizardsofTheBoast/Warrior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1tEv1NelHHEWPojfeUS0ltgYW5z" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="flattenPackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -18,6 +43,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -29,5 +58,16 @@
       <updated>1622346846840</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
