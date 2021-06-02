@@ -1,9 +1,9 @@
 package com.trackingyou;
 
-public abstract class Customer {
+public class Customer {
 
     //name, contact, shipping, billing
-    private Long accountNumber;
+    private String accountNumber;
     private Boolean rewardsMember;
 
     private Name name;
@@ -12,11 +12,11 @@ public abstract class Customer {
     private Contact contact;
 
 
-    public Long getAccountNumber() {
+    public String getAccountNumber() {
         return accountNumber;
     }
 
-    public void setAccountNumber(Long accountNumber) {
+    public void setAccountNumber(String accountNumber) {
         this.accountNumber = accountNumber;
     }
 

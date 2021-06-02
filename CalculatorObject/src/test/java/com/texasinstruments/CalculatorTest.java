@@ -24,17 +24,18 @@ public class CalculatorTest {
         assertEquals(-6, calculator.add(-5, -1));
         assertEquals(-9, calculator.add(-6, -3));
     }
-//    @Test
-//    public void shouldAddTwoPositiveDoubles() {
-//        assertEquals(double 3.75 , calculator.addDubs(1.25, 2.5));
-//        assertEquals(double 11.1 , calculator.addDubs(4.3, 6.8));
-//    }
+    @Test
+    public void shouldAddTwoPositiveDoubles() {
+        assertEquals(3.75, calculator.addDubs(1.25, 2.5), 0.0001);
+        assertEquals(11.1, calculator.addDubs(4.3, 6.8), 0.0001);
+    }
 
-//    @Test
-//    public void shouldAddTwoNegativeDoubles() {
-//        assertEquals(-6, calculator.add(-5, -1));
-//        assertEquals(-9, calculator.add(-6, -3));
-//    }
+    @Test
+    public void shouldAddTwoNegativeDoubles() {
+        assertEquals(-6.75, calculator.addDubs(-5.4, -1.35), 0.0001);
+        assertEquals(-10.5, calculator.addDubs(-6.85, -3.65), 0.0001);
+
+    }
 
 
 //Subtract Tests
