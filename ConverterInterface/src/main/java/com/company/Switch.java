@@ -1,6 +1,6 @@
 package com.company;
 
-public class Switch  implements ConverterSwitch {
+public class Switch  implements Converter {
 
     public String convertMonth(int monthNumber) {
         switch (monthNumber) {
@@ -8,6 +8,10 @@ public class Switch  implements ConverterSwitch {
                 return "January";
         }
 
-
+        public String convertDay(int dayNumber) {
+            switch (dayNumber) {
+                case 1:
+                    return "Monday";
+            }
 
 }

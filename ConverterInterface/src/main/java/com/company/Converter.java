@@ -1,6 +1,6 @@
 package com.company;
 
-public interface ConverterSwitch {
+public interface Converter{
     /**
      * This method converts the given number into its corresponding month.
      * @param monthNumber the number you wish to convert to a month
