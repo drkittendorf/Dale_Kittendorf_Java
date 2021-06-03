@@ -4,10 +4,10 @@ import java.util.Objects;
 
 public class POSIceCream {
     private String flavor;
-    private Float pricePerScoop;
+    private Double pricePerScoop;
     private Boolean gotMilk;
 
-    public POSIceCream (String flavor, Float pricePerScoop, Boolean gotMilk) {
+    public POSIceCream (String flavor, Double pricePerScoop, Boolean gotMilk) {
         this.flavor = flavor;
         this.pricePerScoop = pricePerScoop;
         this.gotMilk = gotMilk;
@@ -21,11 +21,11 @@ public class POSIceCream {
         this.flavor = flavor;
     }
 
-    public Float getPricePerScoop() {
+    public Double getPricePerScoop() {
         return pricePerScoop;
     }
 
-    public void setPricePerScoop(Float pricePerScoop) {
+    public void setPricePerScoop(Double pricePerScoop) {
         this.pricePerScoop = pricePerScoop;
     }
 

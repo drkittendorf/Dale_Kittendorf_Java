@@ -4,12 +4,12 @@ import java.util.Objects;
 
 public class FactoryIceCream {
     private String flavorName;
-    private Long vatNumber;
+    private String vatNumber;
     private Boolean limitedEdition;
     private Boolean lactose;
 
 
-    public FactoryIceCream(String flavorName, Long vatNumber, Boolean limitedEdition, Boolean lactose) {
+    public FactoryIceCream(String flavorName, String vatNumber, Boolean limitedEdition, Boolean lactose) {
         this.flavorName = flavorName;
         this.vatNumber = vatNumber;
         this.limitedEdition = limitedEdition;
@@ -24,11 +24,11 @@ public class FactoryIceCream {
         this.flavorName = flavorName;
     }
 
-    public Long getVatNumber() {
+    public String getVatNumber() {
         return vatNumber;
     }
 
-    public void setVatNumber(Long vatNumber) {
+    public void setVatNumber(String vatNumber) {
         this.vatNumber = vatNumber;
     }
 
