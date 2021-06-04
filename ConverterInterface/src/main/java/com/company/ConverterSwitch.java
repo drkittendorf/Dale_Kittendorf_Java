@@ -28,12 +28,13 @@ public class ConverterSwitch implements Converter{
                 return "November";
             case 12:
                 return "December";
-
+            default:
+                return "You have entered an input for which there is no return";
 
         }
     }
 
-        public String convertDay(int dayNumber){
+        public String convertDay(int dayNumber) {
             switch (dayNumber) {
                 case 1:
                     return "Monday";
@@ -49,6 +50,8 @@ public class ConverterSwitch implements Converter{
                     return "Saturday";
                 case 7:
                     return "Sunday";
+                default:
+                    return "You have entered an invalid input";
             }
         }
 }
