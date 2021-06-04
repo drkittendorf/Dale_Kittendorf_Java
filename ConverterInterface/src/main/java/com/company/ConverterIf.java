@@ -36,17 +36,17 @@ public class ConverterIf implements Converter {
                 if (dayNumber == 1) {
                     return "Monday";
                 } else if (dayNumber == 2) {
-                    return "Monday";
+                    return "Tuesday";
                 } else if (dayNumber == 3) {
-                    return "Monday";
+                    return "Wednesday";
                 } else if (dayNumber == 4) {
-                    return "Monday";
+                    return "Thursday";
                 } else if (dayNumber == 5) {
-                    return "Monday";
+                    return "Friday";
                 } else if (dayNumber == 6) {
-                    return "Monday";
+                    return "Saturday";
                 } else if (dayNumber == 7) {
-                    return "Monday";
+                    return "Sunday";
                 } else {
                     return "error";
 
