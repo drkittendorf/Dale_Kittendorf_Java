@@ -87,18 +87,18 @@ public class CalculatorTest {
     }
     @Test
     public void shouldMultiplyTwoPositiveDoubles() {
-        assertEquals(10 , calculator.multiplyDubs(5,2));
-        assertEquals(96, calculator.multiplyDubs(16,6));
+        assertEquals(10 , calculator.multiplyDubs(5,2), 4);
+        assertEquals(96, calculator.multiplyDubs(16,6), 4);
     }
     @Test
     public void shouldMultiplyTwoNegativeDoubles() {
-        assertEquals(10 , calculator.multiplyDubs(-5,-2));
-        assertEquals(96, calculator.multiplyDubs(-16,-6));
+        assertEquals(10 , calculator.multiplyDubs(-5,-2), 4);
+        assertEquals(96, calculator.multiplyDubs(-16,-6), 4);
     }
     @Test
     public void shouldMultiplyTwoMixedDoubles() {
-        assertEquals(-10 , calculator.multiplyDubs(5,-2));
-        assertEquals(-96, calculator.multiplyDubs(-16,6));
+        assertEquals(-10 , calculator.multiplyDubs(5,-2), 4);
+        assertEquals(-96, calculator.multiplyDubs(-16,6), 4);
     }
  //Division Tests
   @Test
