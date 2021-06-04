@@ -1,7 +1,6 @@
 package com.company;
 
-public class IfElse implements Converter{
-
+public class ConverterIf implements Converter {
     public String convertMonth(int monthNumber) {
         if (monthNumber == 1) {
             return "January";
@@ -29,23 +28,22 @@ public class IfElse implements Converter{
             return "December";
 
 
-
-    public String convertDay(int dayNumber) {
-        if (dayNumber == 1) {
-            return "Monday";
-        }else if (dayNumber == 2) {
-            return "Monday";
-        } else if (dayNumber == 3) {
-            return "Monday";
-        }else if (dayNumber == 4) {
-            return "Monday";
-        }else if (dayNumber == 5) {
-            return "Monday";
-        }else if (dayNumber == 6) {
-            return "Monday";
-        }else if (dayNumber == 7) {
-            return "Monday";
+            public String convertDay ( int dayNumber){
+                if (dayNumber == 1) {
+                    return "Monday";
+                } else if (dayNumber == 2) {
+                    return "Monday";
+                } else if (dayNumber == 3) {
+                    return "Monday";
+                } else if (dayNumber == 4) {
+                    return "Monday";
+                } else if (dayNumber == 5) {
+                    return "Monday";
+                } else if (dayNumber == 6) {
+                    return "Monday";
+                } else if (dayNumber == 7) {
+                    return "Monday";
 
                 }
-    }
-}
+            }
+        }
