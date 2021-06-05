@@ -4,6 +4,7 @@ public abstract class PersonClass {
     protected String name;
     protected Integer strength;
     protected Integer health;
+    protected Integer stamina;
     protected Integer speed;
     protected Integer attackPower;
 
@@ -24,36 +25,44 @@ public abstract class PersonClass {
         this.name = name;
     }
 
-    public String getStrength() {
+    public Integer getStrength() {
         return strength;
     }
 
-    public void setStrength(String strength) {
+    public void setStrength(Integer strength) {
         this.strength = strength;
     }
 
-    public String getHealth() {
+    public Integer getHealth() {
         return health;
     }
 
-    public void setHealth(String health) {
+    public void setHealth(Integer health) {
         this.health = health;
     }
 
-    public String getSpeed() {
+    public Integer getSpeed() {
         return speed;
     }
 
-    public void setSpeed(String speed) {
+    public void setSpeed(Integer speed) {
         this.speed = speed;
     }
 
-    public String getAttackPower() {
+    public Integer getAttackPower() {
         return attackPower;
     }
 
-    public void setAttackPower(String attackPower) {
+    public void setAttackPower(Integer attackPower) {
         this.attackPower = attackPower;
+    }
+
+    public Integer getStamina() {
+        return stamina;
+    }
+
+    public void setStamina(Integer stamina) {
+        this.stamina = stamina;
     }
 }
 
