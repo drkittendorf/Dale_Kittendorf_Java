@@ -22,8 +22,8 @@ public class ConverterSwitchTest {
 
     @Test
     public void shouldReturnDayOfWeek() {
-        String whatIExpect = "Monday";
-        String whatIGot = ConverterSwitch.convertDay(1);
+        String whatIExpect = "Wednesday";
+        String whatIGot = ConverterSwitch.convertDay(3);
         assertEquals(whatIExpect, whatIGot);
     }
 
