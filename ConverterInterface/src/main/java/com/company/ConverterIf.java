@@ -28,7 +28,7 @@ public class ConverterIf implements Converter {
         } else if (monthNumber == 12) {
             return "December";
         } else {
-            return "error";
+            return "You have entered an invalid input, you entered : " + (monthNumber);
         }
     }
 
@@ -48,7 +48,7 @@ public class ConverterIf implements Converter {
                 } else if (dayNumber == 7) {
                     return "Sunday";
                 } else {
-                    return "error";
+                    return "You have entered an invalid input, you entered : " + (dayNumber);
 
                 }
             }
