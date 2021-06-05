@@ -2,6 +2,15 @@ package com.LizardsofTheBoast;
 
 public class Constable extends PersonClass {
 
+    public Constable (String name) {
+        this.setStrength(60);
+        this.setHealth(100);
+        this.setStamina(60);
+        this.setSpeed(20);
+        this.setAttackPower(5);
+    }
+
+
     protected String jurisdiction;
 
     public void arrest () {

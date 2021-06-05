@@ -2,6 +2,17 @@ package com.LizardsofTheBoast;
 
 public class Warrior extends PersonClass {
 
+    public Warrior (String name) {
+        this.setStrength(75);
+        this.setHealth(100);
+        this.setStamina(100);
+        this.setSpeed(50);
+        this.setAttackPower(10);
+        this.setShieldStrength(100);
+
+
+    }
+
     protected Integer shieldStrength;
 
     public void decreaseShieldStrength(){

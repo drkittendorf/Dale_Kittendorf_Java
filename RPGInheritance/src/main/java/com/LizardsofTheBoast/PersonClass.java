@@ -26,7 +26,8 @@ public abstract class PersonClass {
     }
 
     public Integer getStrength() {
-        return strength;
+               return strength;
+
     }
 
     public void setStrength(Integer strength) {

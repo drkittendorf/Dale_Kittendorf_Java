@@ -3,41 +3,32 @@ package com.LizardsofTheBoast;
 public class Main {
 
     public static void main(String[] args) {
-        Farmer ferd = new Farmer ();
+
+        Farmer ferd = new Farmer("Ferd");
         ferd.setName("Ferd");
-        ferd.setStrength(75);
-        ferd.setHealth(100);
-        ferd.setStamina(75);
-        ferd.setSpeed(10);
-        ferd.setAttackPower(1);
-
-
-        Constable bobby = new Constable();
+        Warrior ultimate = new Warrior("Ultimate");
+        ultimate.setName("Ultimate");
+        Constable bobby = new Constable("Bobby");
         bobby.setName("Bobby");
-        bobby.setStrength(60);
-        bobby.setHealth(100);
-        bobby.setStamina(60);
-        bobby.setSpeed(20);
-        bobby.setAttackPower(5);
         bobby.setJurisdiction("Tamriel");
 
 
 
-        Warrior ultimate = new Warrior();
-        ultimate.setName("Ultimate");
-        ultimate.setStrength(75);
-        ultimate.setHealth(100);
-        ultimate.setStamina(100);
-        ultimate.setSpeed(50);
-        ultimate.setAttackPower(10);
-        ultimate.setShieldStrength(100);
+
+
+
+
+
+
 
 
         ferd.plow();
         bobby.arrest();
         ultimate.decreaseShieldStrength();
         ferd.harvest();
-
+        System.out.println("Ferd's Strength is " + ferd.getStrength());
+        System.out.println("Bobby's Jurisdiction is all of " +  bobby.getJurisdiction());
+        System.out.println("Ultimate's Strength and Stamina is " + ultimate.getStrength() + " and  " + ultimate.getStamina());
     }
 
 
