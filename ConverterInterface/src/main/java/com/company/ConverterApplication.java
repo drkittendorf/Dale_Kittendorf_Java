@@ -2,14 +2,15 @@ package com.company;
 import java.util.Scanner;
 
 public class ConverterApplication {
-    private ConverterIf ConverterIf;
-    private ConverterSwitch ConverterSwitch;
 
-    public void main(String[] args) {
+
+    public static void main(String[] args) {
+        ConverterIf ConverterIf;
+        ConverterSwitch ConverterSwitch;
+        ConverterIf = new ConverterIf();
+        ConverterSwitch = new ConverterSwitch();
 
         Scanner scanner = new Scanner(System.in);
-        ConverterIf converterIf = new ConverterIf();
-        ConverterSwitch converterSwitch = new ConverterSwitch();
 
         System.out.println("Please enter the MONTH Number for the If/Else to convert:");
         // return month from switch
@@ -30,6 +31,6 @@ public class ConverterApplication {
         System.out.println(ConverterSwitch.convertDay(switchDay));
         // return day from if
 
-    };
+    }
 
 }
