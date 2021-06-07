@@ -15,13 +15,6 @@ public class Main {
 
 
 
-
-
-
-
-
-
-
         ferd.plow();
         bobby.arrest();
         ultimate.decreaseShieldStrength();

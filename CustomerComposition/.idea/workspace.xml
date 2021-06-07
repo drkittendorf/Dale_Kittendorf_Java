@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1aaa023-32ee-498c-b03f-54f809531bfe" name="Default Changelist" comment="" />
+    <list default="true" id="e1aaa023-32ee-498c-b03f-54f809531bfe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/trackingyou/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/trackingyou/Billing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trackingyou/Billing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/trackingyou/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trackingyou/Contact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/trackingyou/Name.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trackingyou/Name.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/trackingyou/Shipping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trackingyou/Shipping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RPGInheritance/src/main/java/com/LizardsofTheBoast/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RPGInheritance/src/main/java/com/LizardsofTheBoast/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RPGInheritance/src/main/java/com/LizardsofTheBoast/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RPGInheritance/src/main/java/com/LizardsofTheBoast/Warrior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RPGInheritance/target/classes/com/LizardsofTheBoast/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../RPGInheritance/target/classes/com/LizardsofTheBoast/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RPGInheritance/target/classes/com/LizardsofTheBoast/Warrior.class" beforeDir="false" afterPath="$PROJECT_DIR$/../RPGInheritance/target/classes/com/LizardsofTheBoast/Warrior.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

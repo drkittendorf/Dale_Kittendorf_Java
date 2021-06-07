@@ -4,16 +4,29 @@ import java.util.Objects;
 
 public class FactoryIceCream {
     private String flavorName;
-    private String vatNumber;
-    private Boolean limitedEdition;
-    private Boolean lactose;
+    private int vatNumber;
+    private boolean limitedEdition;
+    private boolean lactose;
 
 
-    public FactoryIceCream(String flavorName, String vatNumber, Boolean limitedEdition, Boolean lactose) {
+    public FactoryIceCream(String flavorName, int vatNumber, boolean limitedEdition, boolean lactose) {
         this.flavorName = flavorName;
         this.vatNumber = vatNumber;
         this.limitedEdition = limitedEdition;
         this.lactose = lactose;
+    }
+
+
+    private boolean shouldIHurryMyOrder() {
+        return this.limitedEdition;
+    }
+
+    private boolean shouldIOrderABatchForSensitiveCustomers() {
+        return !this.lactose;
+    }
+
+    private boolean hasThisFlavorBeenAroundLong() {
+        return this.vatNumber <= 100;
     }
 
     public String getFlavorName() {
@@ -24,41 +37,28 @@ public class FactoryIceCream {
         this.flavorName = flavorName;
     }
 
-    public String getVatNumber() {
+    public int getVatNumber() {
         return vatNumber;
     }
 
-    public void setVatNumber(String vatNumber) {
+    public void setVatNumber(int vatNumber) {
         this.vatNumber = vatNumber;
     }
 
-    public Boolean getLimitedEdition() {
+    public boolean isLimitedEdition() {
         return limitedEdition;
     }
 
-    public void setLimitedEdition(Boolean limitedEdition) {
+    public void setLimitedEdition(boolean limitedEdition) {
         this.limitedEdition = limitedEdition;
     }
 
-    public Boolean getLactose() {
+    public boolean isLactose() {
         return lactose;
     }
 
-    public void setLactose(Boolean lactose) {
+    public void setLactose(boolean lactose) {
         this.lactose = lactose;
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        FactoryIceCream that = (FactoryIceCream) o;
-        return Objects.equals(flavorName, that.flavorName) && Objects.equals(vatNumber, that.vatNumber) && Objects.equals(limitedEdition, that.limitedEdition) && Objects.equals(lactose, that.lactose);
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(flavorName, vatNumber, limitedEdition, lactose);
     }
 
     @Override
@@ -69,5 +69,18 @@ public class FactoryIceCream {
                 ", limitedEdition=" + limitedEdition +
                 ", lactose=" + lactose +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        FactoryIceCream that = (FactoryIceCream) o;
+        return vatNumber == that.vatNumber && limitedEdition == that.limitedEdition && lactose == that.lactose && Objects.equals(flavorName, that.flavorName);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(flavorName, vatNumber, limitedEdition, lactose);
     }
 }

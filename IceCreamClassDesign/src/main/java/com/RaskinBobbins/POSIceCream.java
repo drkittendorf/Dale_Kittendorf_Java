@@ -4,14 +4,26 @@ import java.util.Objects;
 
 public class POSIceCream {
     private String flavor;
-    private Double pricePerScoop;
-    private Boolean gotMilk;
+    private double pricePerScoop;
+    private boolean gotMilk;
 
-    public POSIceCream (String flavor, Double pricePerScoop, Boolean gotMilk) {
+    public POSIceCream(String flavor, double pricePerScoop, boolean gotMilk) {
         this.flavor = flavor;
         this.pricePerScoop = pricePerScoop;
         this.gotMilk = gotMilk;
     }
+    public void sprinkles() {
+        System.out.println("So colorful!!!");
+    }
+
+    public void waffleCone() {
+        System.out.println("so Sweet and its broken ... awww.. ");
+    }
+
+    private boolean canIAfford() {
+        return this.pricePerScoop < 4.0;
+    }
+
 
     public String getFlavor() {
         return flavor;
@@ -21,34 +33,20 @@ public class POSIceCream {
         this.flavor = flavor;
     }
 
-    public Double getPricePerScoop() {
+    public double getPricePerScoop() {
         return pricePerScoop;
     }
 
-    public void setPricePerScoop(Double pricePerScoop) {
+    public void setPricePerScoop(double pricePerScoop) {
         this.pricePerScoop = pricePerScoop;
     }
 
-    public Boolean getGotMilk() {
+    public boolean isGotMilk() {
         return gotMilk;
     }
 
-    public void setGotMilk(Boolean gotMilk) {
+    public void setGotMilk(boolean gotMilk) {
         this.gotMilk = gotMilk;
-    }
-
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        POSIceCream that = (POSIceCream) o;
-        return Objects.equals(flavor, that.flavor) && Objects.equals(pricePerScoop, that.pricePerScoop) && Objects.equals(gotMilk, that.gotMilk);
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(flavor, pricePerScoop, gotMilk);
     }
 
     @Override
@@ -60,9 +58,16 @@ public class POSIceCream {
                 '}';
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        POSIceCream that = (POSIceCream) o;
+        return Double.compare(that.pricePerScoop, pricePerScoop) == 0 && gotMilk == that.gotMilk && Objects.equals(flavor, that.flavor);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(flavor, pricePerScoop, gotMilk);
+    }
 }
-
-
-
-
-

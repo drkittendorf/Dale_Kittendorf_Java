@@ -10,7 +10,6 @@ public class Warrior extends PersonClass {
         this.setAttackPower(10);
         this.setShieldStrength(100);
 
-
     }
 
     protected Integer shieldStrength;
