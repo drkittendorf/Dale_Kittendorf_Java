@@ -74,7 +74,5 @@ public class Quote {
 //  - author
 //  - quote
 
-// “Happiness consists in activity.
-//It is running steam,
-//not a stagnant pool.”
+
 //~ John Mason Good
