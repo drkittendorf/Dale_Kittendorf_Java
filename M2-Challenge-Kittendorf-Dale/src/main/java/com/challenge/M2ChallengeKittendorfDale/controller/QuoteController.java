@@ -29,7 +29,7 @@ public class QuoteController {
                     "Albert Einstein",
                     "It is not that I'm so smart.But I stay with the questions much longer."),
             new Quote (5,
-                    "Johnathan Swift",
+                    "Jonathan Swift",
                     "May You live every day of your life."),
             new Quote (6,
                     "Theodore Roosevelt",
