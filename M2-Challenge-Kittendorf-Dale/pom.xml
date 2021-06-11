@@ -34,7 +34,7 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		// Dale added these next 2 dependencies
+
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>

@@ -29,7 +29,7 @@ public class Answer {
         return question;
     }
 
-    private void setQuestion(String question) {
+    public void setQuestion(String question) {
         this.question = question;
     }
 
