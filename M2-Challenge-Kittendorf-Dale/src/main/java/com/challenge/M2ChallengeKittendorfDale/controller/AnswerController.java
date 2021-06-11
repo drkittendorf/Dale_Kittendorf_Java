@@ -10,6 +10,8 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 
+import static com.challenge.M2ChallengeKittendorfDale.models.Answer.*;
+
 @RestController
 public class AnswerController {
     Random random = new Random();
@@ -27,20 +29,18 @@ public class AnswerController {
     ));
 
 
-//    @GetMapping (value ="/question")
-//    @ResponseStatus(HttpStatus.CREATED)
-//    public Answer getAnswer() {@PathVariable Answer question)
+    @GetMapping ("/magic/{question")
+    @ResponseStatus(HttpStatus.CREATED)
+    String eightBall (@PathVariable String question)  {
 //        Answer newAnswer = new Answer();
-//        Question newQuestion = new question();
 //
-//        int randomAnswerIndex = random.nextInt(answerList.size());
-//        Answer randomAnswer = answerList.get(randomAnswerIndex);
+        int randomAnswerIndex = random.nextInt(answerList.size());
+        Answer randomAnswer = answerList.get(randomAnswerIndex);
 //
-//        Answer.setQuestion(question));
-//
-//        return Answer;
-//
-//    }
+////        Answer.setQuestion(magic);
+        return question;
+
+    }
 }
 //- Magic 8-ball API:
 //  - URI: /magic
